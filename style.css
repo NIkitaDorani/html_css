@@ -9,6 +9,7 @@ body {
 }
 
 .my-web {
+    width: 510px;
     font-size: 64px;
     color: #1f3f68;
 }
@@ -33,7 +34,7 @@ body {
 .input-fields {
     border: 1px solid #356ead;
     box-sizing: border-box;
-    border-radius: 10px;
+    border-radius: 10 px;
     opacity: 0.4;
 }
 
@@ -47,4 +48,46 @@ body {
     text-align: center;
     color: #ffffff;
     text-transform: uppercase;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.info-container {
+    width: 1140px;
+    margin: 0 auto;
+}
+.footer__info {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.headermenu {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.onepagetext {
+    width: 425px;
+}
+.card {
+    width: 359px;
+}
+.card-box {
+    display: flex;
+    justify-content: space-between;
+}
+.footer__text {
+    width: 495px;
+}
+.head-textfoot {
+    width: 340px;
+}
+.contacts-info {
+    display: flex;
+    justify-content: space-around;
+}
+.map {
+    width: 1140px;
 }
